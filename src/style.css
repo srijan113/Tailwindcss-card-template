@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind component;
+
+
+.btn{
+   @apply inline-block border-4 border-orange-400 px-2 tracking-wider font-semibold py-2 text-lg shadow-lg rounded-lg text-orange-400 text-sm; 
+}
+
 @tailwind utilities;
